@@ -1,0 +1,6 @@
+../rtl/enduro_fifo_top.sv
+../rtl/enduro_fifo_cntl.sv
+../rtl/enduro_axis_io.sv
+../rtl/enduro_dual_port_ram.sv
+../rtl/enduro_counter_sync.sv
+../rtl/enduro_signal_sync.sv
