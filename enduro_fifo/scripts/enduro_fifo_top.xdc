@@ -14,6 +14,6 @@ set_output_delay –clock s_axis_clk –min 0.2 [get_ports { s_axis_tready } ]
 set_output_delay –clock m_axis_clk –max 1.5 [get_ports { m_axis_tdata m_axis_tvalid } ]
 set_output_delay –clock m_axis_clk –min 0.25 [get_ports { m_axis_tdata m_axis_tvalid } ]
 
-# Flase paths
+# False paths
 set_false_path -from [get_clocks s_axis_clk] -to [get_clocks m_axis_clk]
 set_false_path -from [get_clocks m_axis_clk] -to [get_clocks s_axis_clk]
